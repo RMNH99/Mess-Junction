@@ -1,0 +1,100 @@
+.statusContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statusContent{
+    display: flex;
+    align-items: center ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+.statusContent>img{
+    width: 100%;
+}
+
+.statusDiv{
+    width: 400px;
+    height: 43vw;
+    position: fixed;
+    top: 5%;
+    z-index: 200;
+}
+.leftRightBtns{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    transition: 0.3s ease;
+    filter:contrast(0.1);
+}
+.leftRightBtns:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+.leftRightBtns:nth-child(4){
+    right: -17%;
+}
+.leftRightBtns:nth-child(3){
+    left: -17%;
+}
+.closeBtn{
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    margin: 10px;
+    filter:brightness(1.2);
+    transition: 0.3s ease;
+}
+.closeBtn:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    filter:brightness(1.4);
+}
+.busiName{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 5px;
+    background-color: #7ED957;
+}
+
+/* **************Responsive Quries***************** */
+
+@media (max-width:900px) {
+   
+    .statusDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        position: fixed;
+        top: 0%;
+        z-index: 200;
+    }
+    .statusContent{
+        position: fixed;
+        width:100%;
+        background-color: grey;
+    }
+    .statusContent>img{
+        margin: auto;
+        width: 100%;
+    }
+   
+    .leftRightBtns:nth-child(4){
+        right: 0%;
+    }
+    .leftRightBtns:nth-child(3){
+        left: 0%;
+    }
+.busiName{
+    bottom: -20%;
+}
+    
+}

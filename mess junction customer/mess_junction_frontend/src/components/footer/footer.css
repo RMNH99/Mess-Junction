@@ -1,0 +1,19 @@
+.footerContainer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(35,45,56);
+}
+.copyrightPara{
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0px 6vw;
+    margin: auto 7px ;
+  }
+  .copyrightPara>span{
+    display: flex;
+    flex-direction: row;
+  }
