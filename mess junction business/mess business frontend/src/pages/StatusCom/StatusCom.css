@@ -1,0 +1,117 @@
+.status-content-box{
+    width: 200px;
+    height: 270px;
+    margin: 50px 10px auto 10px;
+    overflow: hidden;
+}
+.viewStatus{
+    width: 200px;
+    height: 180px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.inputStatustext{
+/* width: 200px; */
+width: 100%;
+max-height: 50px;
+height: auto;
+background-color: rgb(8, 7, 7, 0.4);
+color: antiquewhite;
+justify-content: center;
+align-items: center;
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+transform: translate(0px, -54px);
+font-size: auto;
+overflow-y: scroll;
+padding-right: 20px;
+}
+.status-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #cb6ce6;
+    /* border: 2px solid #7ed957; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-bottom: 40px;
+}
+.input-status-msg{
+    height: 30px;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #cc7d07 ;
+    outline: none;
+    color: #04002a;
+    resize: none;
+    width: 50%;
+  
+}
+.status-form-box{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+} 
+.input-status-msg:hover{
+    border-bottom: 2px solid #7ed957;
+}
+
+.inputStatus{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+
+.Save-status,.send-status,.CP-btn:hover{
+width: auto;
+padding: 8px;
+background-color: #7ed957;
+border-radius: 10px;
+border: wheat;
+color:white;
+}
+.Save-status{
+    margin-left: 10px;
+}
+.Save-status:hover,.send-status:hover{
+    background-color: white;
+    border: 2px solid #ffbd59;
+    color:  #ffbd59;   
+}
+.CP-btn{
+    width: auto;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #ffbd59;
+    color:  #ffbd59;   
+}
+.unorderList,.send-button-align{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.unorderList{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    column-gap: 20px;
+    /* row-gap: 20px; */
+}
+.send-button-align{
+  
+    margin-top: 30px;
+}
+
+/* ---------------------------Media Query------------------------- */
+
+@media(max-width: 400px){
+    /* .mediaQwidth{
+        width: 200%;
+    } */
+    .unorderList{
+        display: block;
+    }
+    }

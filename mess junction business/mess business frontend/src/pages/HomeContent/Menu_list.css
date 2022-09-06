@@ -1,0 +1,55 @@
+.item{
+    display: flex;
+    width: auto;
+    margin: 5px;
+    height: auto;
+    background-color: rgb(8, 7, 7, 0.5);
+    border: 2px solid black ;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 20% 60% 10% 10%;
+    
+}
+.item-image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid gray;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.text{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    line-height: 20px;
+}
+.vegimg{
+    width: 10px;
+}
+.edit, .delete{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.edit{
+    color: white;
+    font-size: 25px;
+}
+.edit:hover{
+    color: rgb(18, 189, 228);
+    font-size: 30px;
+}
+.delete{
+    color: rgb(248, 196, 11);
+    font-size: 25px;
+}
+.abcdefg>.delete:hover{
+    color: rgb(248, 118, 11);
+    font-size: 27px;
+    border: 2px dotted rgb(248, 118, 11);
+}
+.delete:hover{
+    color: rgb(248, 118, 11);
+    font-size: 27px;
+}

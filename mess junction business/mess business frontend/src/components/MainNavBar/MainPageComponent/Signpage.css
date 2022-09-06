@@ -1,0 +1,109 @@
+.Signup-input{
+        height: 30px;
+        padding: 4px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid #cc7d07 ;
+        outline: none;
+        color: #329807;
+        resize: none;
+        width: 90%;
+}
+.Signup-box1,.Signup-box2{
+width: 35%;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+.Signup-icon{
+    float: right;
+}
+.Signup-main-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.reg{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 76);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+.reg2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 76);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+.reg3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 76);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.Signup-box2>img{
+    width: 300px;
+}
+.Signup-btn{
+    width: auto;
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 153, 255);
+    color: aliceblue;
+}
+.tblebtn{
+    justify-content: center;
+    display: flex;
+}
+.CPh2{
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+}
+
+/* ----------------------------------Media Query----------------------------------- */
+@media(max-width: 400px){
+    .Signup-main-box{
+        display: block;
+    }
+    .Signup-box1{
+        width: 210vw;
+       
+    }
+    .Signup-box2{
+        display: none;
+    }
+    .reg{
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+
+    .reg2{
+   
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 210vw;
+        font-size: 40px;
+    }
+
+.td2{
+    width: 450px !important;
+    font-size: 80;
+}
+.Signup-btn{
+  
+    padding: 15px;
+}
+
+}
