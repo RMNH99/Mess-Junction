@@ -1,0 +1,78 @@
+.flex{
+    justify-content: center;
+    display: flex;
+}
+.box123{
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
+    margin-top: 20px;
+
+}
+.HPprofile-main-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.HPFileBox{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid gray;
+}
+.HPimg{
+    width: 200px;
+    height: 200px;
+}
+.center{
+    margin: auto;
+}
+.Save-btn{
+ justify-content: center;
+ display: flex;
+ align-items: center;
+}
+.width{
+    width: 100vh;
+}
+.busiDetailhead{
+    background-color: #cb6ce6;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 54);
+}
+.table1{
+    margin: 10px auto 10px auto;
+}
+
+/* ----------------------------------Media Query----------------------------------- */
+@media(max-width: 400px){
+    .flex{
+        display: block;
+    }
+    .HPprofile-main-box{
+        width: 210vw;
+    }
+
+    .box123{
+        width: 210vw;
+        padding: 10px auto 10px auto;
+        margin: 10px auto;
+    }
+    .t1outerbox{
+        padding: 10px auto ;
+        width: 200%;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    .table1{
+     width: 70%;
+     margin: auto;
+    }
+    #svbtn{
+       width: 200%;
+       justify-content: center;
+       display: flex;
+    }
+    }
