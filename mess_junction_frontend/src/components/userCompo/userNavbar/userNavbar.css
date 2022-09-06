@@ -1,0 +1,86 @@
+/* ***********User Navber */
+
+.userNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 30px;
+    border-bottom: 3px solid var(--light1green);
+    background-color: white;
+}
+#logo{
+    height: 75px;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+.navlist>a>li{
+    list-style-type: none;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+#profileLogo{
+    list-style-type: none;
+    margin: 0px 10px 0px 30px;
+}
+.navlist li img{
+    height: 45px;
+    transition: 0.3s ease 0s;
+}
+.navlist li img:hover{
+   transform: scale(1.15);
+    transition: 0.3s ease 0s;
+}
+/* **************Profile hover list ************/
+.navlist>.profileHoverList{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    right: 30px;
+    top:70px;
+    flex-direction: column;
+    background-color: white;
+    line-height: 40px;
+    padding: 10px 20px;
+    box-shadow: 0px 11px 52px -23px rgba(0,0,0,0.75);
+}
+.profileHoverList:hover{
+    display: inline-block;
+}
+.profileHoverList li:hover{
+    border-bottom: 3px solid orange;
+}
+ #profileLogo:hover + .profileHoverList{
+ display: inline-block;
+}
+
+/* **************Responsive Quries***************** */
+
+@media (max-width:900px) {
+    .voidNav{
+        visibility: hidden;
+        height: 90px;
+    }
+    .userNavbar{
+        position: fixed;
+        width: 100%;
+        padding: 5px 10px;
+        top: 0px;
+        z-index: 100;
+    }
+    .navlist>a>li{
+        list-style-type: none;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+    #profileLogo{
+        margin: 0px 10px;
+    }
+    .navlist li img{
+        height: 40px;
+    }
+    #logo{
+        height: 70px;
+    }
+}
